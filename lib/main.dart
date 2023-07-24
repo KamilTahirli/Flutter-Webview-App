@@ -28,7 +28,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(5), // Şeffaf TabBar'ın yüksekliği
+        preferredSize: Size.fromHeight(0), // Şeffaf TabBar'ın yüksekliği
         child: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0, // AppBar'ın gölgesini kaldırır
